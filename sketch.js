@@ -17,6 +17,7 @@ function setup() {
   // cnv.mousePressed(() => (_img = _imgReset)); // only works on first click!
   cnv.mousePressed(() => (_isPaused = !_isPaused)); 
   image(_img, 0, 0, _w, _h);
+  frameRate(.3);
 }
 
 function draw() {
